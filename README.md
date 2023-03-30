@@ -6,6 +6,8 @@ The Decoder block of autoencoder consists of an output layer that gives the reco
 
 In this project, tweaked the Autoencoder Neural Network in such a manner that while training, we input Grayscale Images and set the output as their corresponding color images. In this way, the autoencoder layers would learn how to convert the latent space representation of grayscale images into colored images. For the Encoder, chose a pre-trained VGG16 model trained on ImageNet Dataset to classify 1000 classes. For the decoder part of the autoencoder, to upsample the latent representation up to the size of the original image used UpSampling Layers.
 
+Google Colab Notebook: https://colab.research.google.com/drive/1lb8sHmi5UnJbWMETtb5VP44w7mX95d0J?usp=sharing
+
 The project performed significantly well on converting grayscale images to colored rgb images. Some of the results can be seen below: 
 
 ![image](https://github.com/PrinceShishodia/Image_Colorization/blob/main/Test_Images/test_car.png)
